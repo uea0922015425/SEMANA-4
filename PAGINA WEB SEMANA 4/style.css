@@ -1,0 +1,38 @@
+/* Variables globales */
+:root {
+  --primary-color: #ff5733;
+  --secondary-color: #0d6efd;
+}
+
+/* Botón personalizado */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #e04b29;
+  transform: scale(1.05);
+}
+
+/* Card Hover */
+.card.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card.hover-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Media Query Personalizada */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+  .footer {
+    font-size: 0.9rem;
+  }
+}

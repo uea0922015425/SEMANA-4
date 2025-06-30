@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Argudo Tactical & Cyber Security</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap @5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Argudo Security</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Argudo Tactical & Cyber Security</h1>
+    <p class="lead">Protección física y digital para clientes VIP y corporativos</p>
+  </div>
+</header>
+
+<!-- Main Section -->
+<main class="py-5">
+  <div class="container" id="servicios">
+
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+
+    <div class="col-md-4">
+  <div class="card hover-card">
+    <img src="assets/img/escolta-vip.jpg" class="card-img-top img-fluid" alt="Seguridad VIP">
+    <div class="card-body">
+      <h3 class="card-title">Escolta VIP</h3>
+      <p class="card-text">Protección personalizada para personas de alto perfil en entornos urbanos y rurales.</p>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card hover-card">
+    <img src="assets/img/equipo-tactico.jpg" class="card-img-top img-fluid" alt="Equipo táctico">
+    <div class="card-body">
+      <h3 class="card-title">Monitoreo Remoto</h3>
+      <p class="card-text">Sistema inteligente de cámaras y sensores con alertas en tiempo real.</p>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card hover-card">
+    <img src="assets/img/control-biometrico.jpg" class="card-img-top img-fluid" alt="Portada escolta">
+    <div class="card-body">
+      <h3 class="card-title">Control Biométrico</h3>
+      <p class="card-text">Acceso restringido mediante reconocimiento facial o huella dactilar.</p>
+    </div>
+  </div>
+</div>
+
+    <!-- Botón colapsable -->
+    <div class="text-center my-4">
+      <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#infoExtra">
+        Mostrar más información
+      </button>
+    </div>
+
+    <!-- Contenido colapsable -->
+    <div class="collapse" id="infoExtra">
+      <div class="card card-body mb-4 shadow-sm">
+        <p>ARGUDO TACTICAL & CYBER SECURITY S.A ofrece soluciones integrales para proteger personas, sistemas y redes críticas. Trabajamos con estándares internacionales y personal altamente capacitado.</p>
+      </div>
+    </div>
+
+    <!-- Formulario Responsivo -->
+    <section id="contacto">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" required />
+          <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Correo Electrónico:</label>
+          <input type="email" class="form-control" id="email" required />
+          <div class="invalid-feedback">Por favor ingresa un correo válido.</div>
+        </div>
+        <div class="col-12">
+          <label for="comentarios" class="form-label">Comentarios:</label>
+          <textarea class="form-control" id="comentarios" rows="3" required></textarea>
+          <div class="invalid-feedback">Por favor escribe un comentario.</div>
+        </div>
+        <div class="col-12 text-center">
+          <button class="btn btn-primary mt-3" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer bg-light text-center py-3">
+  <div class="container">
+    <p>&copy; 2025 Argudo Tactical & Cyber Security S.A | Todos los derechos reservados.</p>
+    <p><a href="#" class="text-decoration-none">Política de Privacidad</a> | <a href="#" class="text-decoration-none">Términos de Uso</a></p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap @5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- JavaScript Personalizado -->
+<script src="script.js"></script>
+</body>
+</html>
